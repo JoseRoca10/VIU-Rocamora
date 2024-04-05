@@ -35,7 +35,7 @@ START-OF-SELECTION.
   wa_fieldcat-seltext_m  = 'Passenger Name'.
   APPEND wa_fieldcat TO it_fieldcat.
 
-*Pass data and field catalog to ALV function module to display ALV list
+  " Llamada a la función estandar para mostrar ALV
   CALL FUNCTION 'REUSE_ALV_GRID_DISPLAY'
     EXPORTING
       it_fieldcat   = it_fieldcat
