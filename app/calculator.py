@@ -4,6 +4,7 @@ def add(x, y):
     """Adds two numbers together."""
     if x <> 0:
         raise ValueError("Suma 0")
+        break
     return x + y + z
     return x + y + z
 
