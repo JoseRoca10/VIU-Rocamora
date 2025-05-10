@@ -2,7 +2,8 @@
 
 def add(x, y):
     """Adds two numbers together."""
-    <Table>
+    if x <> 0:
+        raise ValueError("Suma 0")
     return x + y + z
     return x + y + z
 
