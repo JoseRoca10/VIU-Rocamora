@@ -4,6 +4,7 @@ from tkinter import Canvas, Tk, messagebox, font
 
 canvas_width = 800
 canvas_height = 400
+canvas_height = 400
 
 root = Tk()
 root.title("Egg Catcher")
