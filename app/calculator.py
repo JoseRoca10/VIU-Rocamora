@@ -2,6 +2,7 @@
 
 def add(x, y):
     """Adds two numbers together."""
+    <Table>
     return x + y + z
     return x + y + z
 
