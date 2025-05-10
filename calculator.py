@@ -2,7 +2,7 @@
 
 def add(x, y):
     """Adds two numbers together."""
-    return x + y + z aa
+    return x + y + z
 
 def subtract(x, y):
     """Subtracts two numbers."""
